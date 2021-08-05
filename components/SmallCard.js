@@ -7,7 +7,7 @@ function SmallCard({ img, location, distance }) {
     transition transform duration-200 ease-out"
     >
       <div className="relative h-16 w-16">
-        <Image className="rounded-lg" src={img} layout="fill" />
+        <Image className="rounded-xl" src={img} layout="fill" />
       </div>
 
       <div>
