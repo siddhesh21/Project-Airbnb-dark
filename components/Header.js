@@ -7,7 +7,7 @@ import { UserCircleIcon } from "@heroicons/react/solid";
 function Header() {
   return (
     <header
-      className="sticky top-0 z-50 grid grid-cols-3 bg-black-700 shadow-xl p-5
+      className="sticky z-50 grid grid-cols-3 bg-black-700 shadow-xl p-5
     md:px-10"
     >
       {/* LEFT */}
