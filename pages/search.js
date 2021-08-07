@@ -87,7 +87,7 @@ function Search({ searchResults }) {
           </div>
         </section>
 
-        <section className="hidden xl:inline-flex xl-min-w-[600px]">
+        <section className="hidden xl:inline-flex xl:min-w-[600px]">
           <Map />
         </section>
       </main>
@@ -99,7 +99,7 @@ function Search({ searchResults }) {
 
 export default Search;
 
-export async function getServerSideProps(context) {
+export async function getServerSideProps() {
   const searchResults = await fetch("https://links.papareact.com/isz").then(
     (res) => res.json()
   );
