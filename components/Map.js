@@ -23,7 +23,7 @@ function Map({ searchResults }) {
     height: "100%",
     latitude: center.latitude,
     longitude: center.longitude,
-    zoom: 10,
+    zoom: 9,
   });
   return (
     <ReactMapGL
@@ -44,7 +44,7 @@ function Map({ searchResults }) {
               role="img"
               aria-label="push-pin"
               onClick={() => setSelectedLocation(result)}
-              className="cursor-pointer text-3xl animate-bounce"
+              className="cursor-pointer text-2xl animate-bounce"
             >
               📌
             </p>
