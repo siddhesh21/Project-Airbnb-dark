@@ -4,6 +4,8 @@ This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](
 
 It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
 
+## React.JS _ Next.JS _ SSR | SSG _ MapBox _ Vercel ---> SEO {Search Engine Optimized}
+
 # Application Deployed on Vercel: https://project-airbnb-dark.vercel.app/
 
 ## Preview
